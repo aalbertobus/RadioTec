@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Radiotec2</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<header>
+    	<nav>
+            <ul>
+                <a href="index.html">
+                	<img src="<%=image_url('radiotec_logo.png') %>"  id="header_logo" alt="radiotec_logo">
+                </a>
+                <li>
+                    <%= link_to "Programas", programs_home_url %>
+                </li>
+                <li>
+                	<a href="horarios.html">Horarios</a>
+                </li>
+                <li>
+                	<a href="acerca.html">Acerca</a>
+                </li>
+                <li>
+                	<a href="mailto:someone@example.com?Subject=Contacto RadioTECII">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<%= yield %>
+
+</body>
+</html>

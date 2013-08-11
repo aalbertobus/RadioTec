@@ -1,0 +1,19 @@
+<section id="programs_section">
+	<div class="page_hone">
+        <h1>Conoce nuestros programas</h1><br>
+        <h2>Puedes consultar nuestros <a href="horarios.html">Horarios</a> para que no te pierdas nuestra programación.</h2>  
+    </div>
+	<% @programs.each do |program| %>
+		<article class="program_item">
+	        <h2 class="program_title">
+	        	<%= program.name %>
+	        </h2>
+	        <figure class="program_figure">
+	            <img src="img/radio1_img.jpg" alt="program1img">
+	        </figure>
+	        <h3 class="program_desc">
+	           <%= program.desc %>
+	        </h3>
+	    </article>	
+	<% end %>	
+</section>

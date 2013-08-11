@@ -1,0 +1,92 @@
+<section id="first_section">
+            <div class="row-fluid">
+                <article class="green_banner span6" id="welcome_banner">
+                    <figure>
+                        <img src="<%= image_url('radiotec_logo.png') %>" id="banner_logo" alt="radiotec_logo">
+                    </figure>
+                    <h1 id="radio_title">
+                        La radio cultural <br> del instituto Tecnológico de Chihuahua II
+                    </h1>
+                </article>   
+
+                <a href="radio.html">
+                    <article class="green_banner span5 offset1" id="listen_banner">
+                        <h2>
+                            Da click para escucharnos
+                        </h2>
+                        <figure>
+                            <img src="<%= image_url('play_logo.png') %>" id="play_logo" alt="play_logo">
+                        </figure>  
+                    </article>   
+                </a> 
+
+               
+                <article class="radio_banner span6" id="radio1_banner">
+                    <h3>
+                        <%= @before_last.desc %><br>
+                        <%= @before_last.name %>
+                    </h3>
+                    <figure>
+                        <img src="<%= image_url('radio1_img.jpg') %>" id="radio1_img" alt="radio1_img">
+                    </figure>
+                </article>
+                
+                
+                    <a href="https://twitter.com/radiotecitchii">
+                    <article class="social_banner span5 offset1" id="twitter_banner">
+                        <h3>
+                            Mandanos tus peticiones<br>
+                            <span>@RadioTecITCHII</span>
+                        </h3>
+                        
+                        <figure>
+                            <img src="<%= image_url('twitter_logo.png') %>" alt="twitter_logo" id="twitter_logo"/>
+                        </figure>                
+                    </article>
+                </a>
+
+                 <a href="https://www.facebook.com/radiotec.itchii">
+                    <article class="social_banner span5 offset1" id="twitter_banner">
+                        <h3>O Tus Comentarios</h3>
+                        <figure>
+                            <img src="<%= image_url('fb_logo.png') %>" alt="fb_logo" id="fb_logo"/>
+                        </figure>                
+                    </article> 
+                 </a>  
+        
+                
+            </div>
+        </section>
+        <footer>
+            <div class="row-fluid">
+                <article class="radio_banner span6" id="radio2_banner">  
+                    <h3>
+                        <strong>
+                            <%= @last.name %>
+                        </strong><br><br>
+                            <%= @last.desc %>
+                    </h3>
+                        
+                    <figure>
+                        <img src="<%= image_url('radio2_img.jpg') %>" id="radio2_img" alt="radio2_img">
+                    </figure>
+                </article> 
+                <div class="row-fluid">
+                    <a href="mailto:someone@example.com?Subject=Contacto RadioTECII" target="_top">
+                        <article class="radio_banner span5 offset1" id="radio3_banner">
+                        <h3>
+                        <strong><span>
+                            ¿Te interesa ser parte de nuestro equipo?</span><br>
+                        </strong><br>
+                        
+                        ¡Contactanos!
+                        </h3>
+                        
+                        <figure>
+                            <img src="<%= image_url('radio3_img.png') %>" id="radio3_img" alt="radio3_img">
+                        </figure>
+                    </article>
+                    </a>
+                </div>
+            </div>
+        </footer>

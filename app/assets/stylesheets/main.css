@@ -1,0 +1,138 @@
+body{background:#e0d3b0;font-size:16px;text-align:left;min-width:320px}
+article,figure{display:inline-block;vertical-align:top}
+a{text-decoration:none;margin:0}
+h1,h2,h3,figure{padding:0;margin:0}
+header{background:#a8974b;border-bottom:3px solid #333;padding:.2em;text-align:center;margin-bottom:3em;width:100%}
+nav{text-align:center;width:100%;}
+nav figure{float:left;margin-left:5em}
+nav img{width:60px}
+nav ul{text-align:center;margin:1.3em 0 padding 0;width:80%}
+nav li{margin:0 .75em;vertical-align:middle;}
+nav li a{color:#feffff;font-size:1.3em}
+nav li a:hover{font-weight:bold;color:#fff}
+h2,h3,figure,p,h1{display:inline-block;vertical-align:bottom}
+h3,h2{color:#feffff}
+#header_logo,ul,li{display:inline-block;vertical-align:middle}
+#header_logo:hover{border-radius:2em;border:solid .2em #57a945}
+.green_banner{background:#57a945;margin:0;padding:2.5em 1em}
+#welcome_banner h1{font-size:1.375em;color:#fbb64a;margin:0 .5em}
+#listen_banner h2{color:#feffff;text-align:center;vertical-align:middle;margin:0 .5em}
+#listen_banner figure{height:5.2em;margin-left:1em;vertical-align:middle}
+#listen_banner:hover{border:solid .2em #333}
+#radio1_banner{background:#f59158;margin:0;padding:1em;}
+#radio1_banner h3{font-weight:normal;text-align:center;width:70%;vertical-align:top;margin-top:2em;margin-left:1em;}
+#radio1_banner h3 span{color:#c42c00;font-weight:bold}
+#radio1_banner img{border:solid .2em #333}
+.social_banner{background:#5f5f5f;padding:.5em;margin:.3em 0;text-align:center;}
+.social_banner h3{font-weight:normal;vertical-align:middle;}
+.social_banner h3 span{font-size:.9em;font-weight:normal;margin-left:10em}
+.social_banner figure{vertical-align:middle;float:right;margin-right:5em}
+.social_banner:hover{border:solid .2em #333}
+#radio2_banner{background:#5f5f5f;padding:1em;}
+#radio2_banner span{color:#57a945}
+#radio2_banner img{border:solid .2em #333}
+#radio2_banner h3{font-weight:normal;text-align:center;width:70%;vertical-align:top;margin-top:1em}
+#welcome_banner,#listen_banner{margin-bottom:1em}
+#radio3_banner{background:#5f5f5f;padding:2em;margin-top:.25em;}
+#radio3_banner span{color:#57a945}
+#radio3_banner h3{font-weight:normal;text-align:center;width:70%;vertical-align:top;margin-top:1em}
+#radio3_banner img{width:130px}
+#radio3_banner figure{float:right}
+#radio3_banner:hover{border:solid .2em #333}
+.social_banner,#green_banner,.radio_banner,#listen_banner{border-radius:.5em}
+#radio2_banner,#radio1_banner{border-radius:0}
+footer{margin-top:1.2em}
+#radio_title{font-size:1.375em;color:#fbb64a;padding:.3em;text-align:center}
+#player_container{text-align:center;}
+#player_container h3{color:#333}
+#player_container span{color:#0081a0}
+#chat_container{text-align:center;margin-top:.5em;}
+#chat_container iframe{border:solid .2em #0081a0}
+#tweet_display{text-align:center;margin-top:.5em;}
+#tweet_display h3{color:#333}
+#tweet_display a{color:#0081a0}
+#tweet_container{background:#0081a0;}
+#tweet_container h3,#tweet_container p,#tweet_container a{display:inline-block;vertical-align:top}
+.page_hone{text-align:center;}
+.page_hone h1{color:#333}
+.page_hone h2{font-weight:normal;color:#333}
+.page_hone a{color:blue_}
+.page_hone a:hover{font-weight:bold}
+#programs_section,.program_item,.program_title,.program_img{margin:0;padding:.3em 0;display:inline-block;vertical-align:top}
+#programs_section{margin:0 5%;margin-top:2em;text-align:center;width:90%;}
+#programs_section .program_item{background:#57a945;border:solid .15em #5f5f5f;margin:.5em;width:45%}
+#programs_section .program_figure{float:right;margin:.3em;}
+#programs_section .program_figure img{border:solid .2em #5f5f5f}
+#programs_section .program_title{color:#333;font-weight:bold;margin:1em}
+#programs_section .program_desc{margin-top:-1em;padding:.2em 0;text-align:left;width:70%;font-weight:normal}
+#acerca_section{margin:0 1em;background:#e0d3bf;border-radius:.6em;border:solid .15em #5f5f5f;padding:1em;margin:2em 1em;}
+#acerca_section h2{color:#333;text-align:left}
+#acerca_section h3{color:#333;font-weight:normal;text-align:left}
+#acerca_img{text-align:center;margin:1em;width:100%}
+body table{margin:.5em}
+body table,body td,body tr{background:rgba(4,169,87,0.1);border:solid .1em #333;padding:.5em}
+body th{background:#57a945;border:solid .15em #000;padding:.3em;}
+body th span{color:#333}
+@media (min-width: 768px) and (max-width: 1250px){body,#first_section{margin:0;padding:0;width:100%;}
+body .green_banner,#first_section .green_banner,body .radio_banner,#first_section .radio_banner,body .social_banner,#first_section .social_banner{width:49%;margin:.8em .1em;padding:1.5em;border-radius:.3em}
+body #welcome_banner h1,#first_section #welcome_banner h1,body #listen_banner h1,#first_section #listen_banner h1,body #radio1_banner h1,#first_section #radio1_banner h1,body #welcome_banner h2,#first_section #welcome_banner h2,body #listen_banner h2,#first_section #listen_banner h2,body #radio1_banner h2,#first_section #radio1_banner h2{font-size:1.2em;width:65%}
+body #welcome_banner img,#first_section #welcome_banner img,body #listen_banner img,#first_section #listen_banner img,body #radio1_banner img,#first_section #radio1_banner img{width:80px}
+body #radio1_banner h3,#first_section #radio1_banner h3{font-size:1.1em;margin:0 .3em;width:60%}
+body .social_banner,#first_section .social_banner{padding:.6em;margin:.6em .1em;}
+body .social_banner h3,#first_section .social_banner h3,body .social_banner span,#first_section .social_banner span{margin:0;padding:0;text-align:left}
+body .social_banner img,#first_section .social_banner img{width:40px}
+footer #radio2_banner,footer #radio3_banner{margin:.6em .1em;padding:1em;width:49%;}
+footer #radio2_banner img,footer #radio3_banner img{width:80px}
+footer #radio3_banner img{margin-top:1em}
+.page_hone{margin:0 .5em;padding:.8em;}
+.page_hone h1{font-size:1.3em}
+.page_hone h2{font-size:1.1em;width:80%}
+#programs_section{margin:.5em 5%;width:90%;}
+#programs_section .program_item{margin:.1em 0;padding:.5em;width:100%;}
+#programs_section .program_item h2{font-size:1.3em}
+#programs_section .program_item h3{font-size:1.1em}
+#programs_section .program_item img{margin-top:1em;width:80px}
+}@media (max-width: 767px){nav ul{padding:0;width:100%}
+nav li{margin:0 .4em}
+#first_section{margin-top:-3.1em;}
+#first_section .social_banner{margin:.1em 0;padding:.5em;width:100%;text-align:left;border:solid .2em #333}
+#first_section .green_banner,#first_section .radio_banner{padding:.5em;margin:.1em 0;width:100%;}
+#first_section .green_banner h1,#first_section .radio_banner h1,#first_section .green_banner h2,#first_section .radio_banner h2,#first_section .green_banner h3,#first_section .radio_banner h3{font-size:1.2em}
+#first_section #welcome_banner h1{vertical-align:top;margin:.5em 0;text-align:center;width:60%}
+#first_section #welcome_banner img{margin:0 .5em}
+#first_section #listen_banner{border:solid .2em #333;}
+#first_section #listen_banner img{width:80px}
+#first_section #radio1_banner{display:none}
+footer{margin:.1em 0;}
+footer #radio2_banner{display:none}
+footer #radio3_banner{width:100%;padding:.5em;margin:0;border:solid .2em #333;}
+footer #radio3_banner img{margin-top:1em;width:100px}
+.page_hone{margin:0 .5em;padding:.8em;}
+.page_hone h1{font-size:1.3em}
+.page_hone h2{font-size:1.1em;width:80%}
+#programs_section{margin:.5em 5%;width:90%;}
+#programs_section .program_item{margin:.1em 0;padding:.5em;width:100%;}
+#programs_section .program_item h2{font-size:1.3em}
+#programs_section .program_item h3{font-size:1.1em}
+#programs_section .program_item img{margin-top:1em;width:80px}
+#acerca_section img{width:400px}
+}@media (max-width: 480px){nav img{width:45px}
+nav ul{padding:0;width:100%}
+nav li{margin:0 .4em;}
+nav li a{font-size:1em}
+#first_section{margin-top:-3.1em;}
+#first_section .social_banner{margin:.1em 0;padding:.5em;width:100%;text-align:left;border:solid .2em #333;}
+#first_section .social_banner h3{margin-left:.5em}
+#first_section .social_banner span{margin-left:2em}
+#first_section .social_banner img{width:40px}
+#first_section .green_banner,#first_section .radio_banner{padding:.5em;margin:.1em 0;width:100%;}
+#first_section .green_banner h1,#first_section .radio_banner h1,#first_section .green_banner h2,#first_section .radio_banner h2,#first_section .green_banner h3,#first_section .radio_banner h3{font-size:1.2em}
+#first_section #welcome_banner h1{text-align:right;width:60%}
+#first_section #listen_banner{border:solid .2em #333}
+#first_section #radio1_banner{display:none}
+footer{margin:.1em 0;}
+footer #radio2_banner{display:none}
+footer #radio3_banner{width:100%;padding:.5em;margin:0;border:solid .2em #333;}
+footer #radio3_banner img{margin-top:1em;width:100px}
+#acerca_section img{width:300px}
+}

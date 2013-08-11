@@ -1,0 +1,15 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    background: #f00;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    background: #00f;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    background: #ff0;
+  }
+}
