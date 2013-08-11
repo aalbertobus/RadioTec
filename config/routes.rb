@@ -1,7 +1,8 @@
 Radiotec2::Application.routes.draw do
   get "home/index"
   get "home/programas" => "home#programs", :as => :programs_home
-
+  get "home/horarios" => "home#schedules",:as => :schedules_home
+  get "home/acerca" => "home#about",:as => :about_home
   resources :programs
 
   root "home#index"

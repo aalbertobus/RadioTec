@@ -8,4 +8,9 @@ class HomeController < ApplicationController
   	@programs = Program.all
   end
   
+  def schedules
+  end
+
+  def about
+  end
 end

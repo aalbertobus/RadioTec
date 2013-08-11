@@ -23,8 +23,9 @@
                
                 <article class="radio_banner span6" id="radio1_banner">
                     <h3>
-                        <%= @before_last.desc %><br>
-                        <%= @before_last.name %>
+                        <span><%= @before_last.name %></span><br>
+                        <br><%= @before_last.desc %>
+                        
                     </h3>
                     <figure>
                         <img src="<%= image_url('radio1_img.jpg') %>" id="radio1_img" alt="radio1_img">
@@ -62,7 +63,9 @@
                 <article class="radio_banner span6" id="radio2_banner">  
                     <h3>
                         <strong>
-                            <%= @last.name %>
+                            <span>
+                                <%= @last.name %> 
+                            </span>
                         </strong><br><br>
                             <%= @last.desc %>
                     </h3>

@@ -10,17 +10,17 @@
 	<header>
     	<nav>
             <ul>
-                <a href="index.html">
+                <a href="/">
                 	<img src="<%=image_url('radiotec_logo.png') %>"  id="header_logo" alt="radiotec_logo">
                 </a>
                 <li>
                     <%= link_to "Programas", programs_home_url %>
                 </li>
                 <li>
-                	<a href="horarios.html">Horarios</a>
+                	<%= link_to "Horarios", schedules_home_url %>
                 </li>
                 <li>
-                	<a href="acerca.html">Acerca</a>
+                	<%= link_to "Acerca", about_home_url %>
                 </li>
                 <li>
                 	<a href="mailto:someone@example.com?Subject=Contacto RadioTECII">Contacto</a>

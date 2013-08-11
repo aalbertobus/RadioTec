@@ -1,7 +1,7 @@
 <section id="programs_section">
 	<div class="page_hone">
         <h1>Conoce nuestros programas</h1><br>
-        <h2>Puedes consultar nuestros <a href="horarios.html">Horarios</a> para que no te pierdas nuestra programación.</h2>  
+        <h2>Puedes consultar nuestros <%= link_to "Horarios", schedules_home_url %> para que no te pierdas nuestra programación.</h2>  
     </div>
 	<% @programs.each do |program| %>
 		<article class="program_item">
