@@ -5,9 +5,8 @@
     <tr>
       <th>Nombre</th>
       <th>Descripción</th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>Foto</th>
+      <th>Creado</th>
     </tr>
   </thead>
 
@@ -16,6 +15,8 @@
       <tr>
         <td><%= program.name %></td>
         <td><%= program.desc %></td>
+        <td></td>
+        <td><%= localize(program.created_at, :format => :long) %></td>
         <td><%= link_to 'Mostrar', program %></td>
         <td><%= link_to 'Editar', edit_program_path(program) %></td>
         <td><%= link_to 'Eliminar', program, method: :delete, data: { confirm: 'Estas seguro?' } %></td>
